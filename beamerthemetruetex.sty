@@ -1,0 +1,39 @@
+% Copyright 2024 by Peter Breitzler
+%
+% This file may be distributed and/or modified
+%
+% 1. under the LaTeX Project Public License and/or
+% 2. under the GNU Public License.
+%
+% See the file doc/licenses/LICENSE for more details.
+
+\mode<presentation>
+
+\usefonttheme{serif}
+\usecolortheme{default}
+\useinnertheme{default}
+\useoutertheme{default}
+
+\usepackage{fontspec}
+\setmainfont{Georgia}
+
+\usepackage{unicode-math}
+\setmathfont{Latin Modern Math}
+
+% Set font color to black for all elements
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{structure}{fg=black} % For headlines and structure elements
+\setbeamercolor{section in toc}{fg=black} % For table of contents
+\setbeamercolor{title}{fg=black} % For titles
+\setbeamercolor{frametitle}{fg=black} % For frame titles
+\setbeamercolor{item}{fg=black} % For bullet points
+
+\definecolor{lightyellow}{RGB}{255, 255, 250}
+\definecolor{lavender}{RGB}{244, 244, 250} % Lavender background
+
+\setbeamercolor{background canvas}{bg=lightyellow}
+\setbeamercolor{frametitle}{bg=lavender}
+
+\setbeamertemplate{itemize items}[ball]
+
+\mode<all>
